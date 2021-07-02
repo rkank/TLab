@@ -1,0 +1,39 @@
+CNN produces 400x1 output from randomly initialized weights
+HD can encode 400 values and add to one of 10 class hypervectors
+
+Issues:
+1. How to backprop?
+
+Ideas:
+1. Use 10% data to only create class hypervectors. Then train and de-encode class vector to 400 values to backprop from
+2. Train NN and hypervectors simultaneously for a few datapoints/epochs
+3. Single pass over dataset to create class vectors then retrain CNN
+4. Use hierarchical encoding: l_vector_x_y, where x is the upper level and y is the lower level. Use for ID vectors?
+
+LeNet-5 uses convolutions and pooling layers to bring 32x32 inputs to 16*5*5 or 400 outputs fed into fully connected layers.
+FC layers distill to 10 final outputs for classification. The 400 values created from this architecture with ReLU activations
+seem to be in the range of (-0.25, 0.25) from 10 runs with the MNIST training set.
+
+To replace this FC frontend, the HD classifier will take in 400 values in that range, encode them, and create class vectors
+for the 10 digits in MNIST. Training flow would be:
+1. Give 32x32 input to CNN, get 400 outputs from CNN layers
+2. Feed outputs into HD encoder and query against 10 class hypervectors
+3.1. If the classification was accurate, add query to class hypervector and continue.
+3.2. Else, also subtract from class hypervector it was incorrectly classified as. Decode incorrectly classified query
+into "correct" 400 values that can be used for backpropagation for CNN.
+
+The issues in this are:
+1. Choice of encoding method; I don't see the position of these 400 values being significant information but that can be
+masked by FC layers' ability to learn around their positions.
+2. Decoding the "correct" 400 values; I need to read if this has and can be done but the values need to be accurate enough
+to meaningfully train the CNN.
+3. Creating the class hypervectors initially; How does the model create a set of true class hypervectors when the CNN
+producing inputs for the encoder is randomly initialized i.e. the 400 values created during the initial runs are garbage.\
+It's a chicken and egg problem where I cannot train the CNN without decoding values from accurate class hypervectors
+and accurate class hypervectors would need the output of the CNN to be meaningful.
+
+Another architecture entirely might be more useful. The problem here may be that there is an untrained layer of
+parameters between the inputs and HD encoding. An easier step should be using a pretrained CNN model and replace
+the FC layers. With that approach, I can be sure the filters in convolutional layers are identifying relevant information
+and can directly start constructing class hypervectors. However, this would only help reduce model size and that feels
+pretty insignificant at the end of having trained a full complexity CNN model.

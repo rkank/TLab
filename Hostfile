@@ -1,0 +1,46 @@
+# ****** machine 64 cores ************
+inn.ece.pdx.edu     cpus=53
+# ****** machine 40 cores ************
+reuss.ece.pdx.edu   cpus=32
+# ****** machine 32 cores ************
+orbe.ece.pdx.edu    cpus=21
+maggia.ece.pdx.edu  cpus=22
+lonza.ece.pdx.edu   cpus=23
+doubs.ece.pdx.edu   cpus=24
+kander.ece.pdx.edu  cpus=23
+birs.ece.pdx.edu    cpus=21
+ticino.ece.pdx.edu  cpus=22
+linth.ece.pdx.edu   cpus=25
+saane.ece.pdx.edu   cpus=25
+rhine.ece.pdx.edu   cpus=25
+rhone.ece.pdx.edu   cpus=24
+# ****** machines 24 cores ***********
+thur.ece.pdx.edu    cpus=13
+aar.ece.pdx.edu     cpus=18
+zhora.ece.pdx.edu   cpus=18
+taffey.ece.pdx.edu  cpus=17
+eldon.ece.pdx.edu   cpus=18
+gaff.ece.pdx.edu    cpus=18
+harry.ece.pdx.edu   cpus=17
+holden.ece.pdx.edu  cpus=18
+rachael.ece.pdx.edu cpus=18
+# ****** slow machine 8 cores ********
+hannibal.ece.pdx.edu    cpus=4
+pris.ece.pdx.edu        cpus=5
+leon.ece.pdx.edu        cpus=3
+roy.ece.pdx.edu         cpus=5
+# ****** lab machines ****************
+tor.cecs.pdx.edu        cpus=5
+#balmhorn.ece.pdx.edu    cpus=8
+matterhorn.ece.pdx.edu  cpus=4
+rothorn.ece.pdx.edu     cpus=4
+wildhorn.ece.pdx.edu    cpus=4
+titlis.ece.pdx.edu      cpus=4
+pilatus.ece.pdx.edu     cpus=4
+bietschhorn.ece.pdx.edu cpus=8
+moench.ece.pdx.edu      cpus=4
+jungfrau.ece.pdx.edu    cpus=4
+breithorn.ece.pdx.edu   cpus=8
+#altels.ece.pdx.edu      cpus=8
+eiger.ece.pdx.edu       cpus=4
+#niederhorn.ece.pdx.edu  cpus=4

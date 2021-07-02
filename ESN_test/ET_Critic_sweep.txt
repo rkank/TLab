@@ -1,0 +1,286 @@
+Testing with 100 nodes, alpha 0.75:
+Test results:
+Classified 44/100 (44.0%) boring compositions as not chorales
+Classified 42/100 (42.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 191/277 (68.95%) dataset chorales as chorales
+
+
+Testing with 100 nodes, alpha 0.8:
+Test results:
+Classified 98/100 (98.0%) boring compositions as not chorales
+Classified 96/100 (96.0%) random compositions as not chorales
+Classified 87/100 (87.0%) composition as chorales
+Classified 78/277 (28.16%) dataset chorales as chorales
+
+
+Testing with 100 nodes, alpha 0.85:
+Test results:
+Classified 86/100 (86.0%) boring compositions as not chorales
+Classified 82/100 (82.0%) random compositions as not chorales
+Classified 99/100 (99.0%) composition as chorales
+Classified 105/277 (37.91%) dataset chorales as chorales
+
+
+Testing with 100 nodes, alpha 0.9:
+Test results:
+Classified 95/100 (95.0%) boring compositions as not chorales
+Classified 94/100 (94.0%) random compositions as not chorales
+Classified 87/100 (87.0%) composition as chorales
+Classified 85/277 (30.69%) dataset chorales as chorales
+
+
+Testing with 100 nodes, alpha 0.95:
+Test results:
+Classified 100/100 (100.0%) boring compositions as not chorales
+Classified 100/100 (100.0%) random compositions as not chorales
+Classified 0/100 (0.0%) composition as chorales
+Classified 1/277 (0.36%) dataset chorales as chorales
+
+
+Testing with 100 nodes, alpha 1.0:
+Test results:
+Classified 98/100 (98.0%) boring compositions as not chorales
+Classified 98/100 (98.0%) random compositions as not chorales
+Classified 76/100 (76.0%) composition as chorales
+Classified 79/277 (28.52%) dataset chorales as chorales
+
+
+Testing with 200 nodes, alpha 0.75:
+Test results:
+Classified 75/100 (75.0%) boring compositions as not chorales
+Classified 75/100 (75.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 127/277 (45.85%) dataset chorales as chorales
+
+
+Testing with 200 nodes, alpha 0.8:
+Test results:
+Classified 73/100 (73.0%) boring compositions as not chorales
+Classified 80/100 (80.0%) random compositions as not chorales
+Classified 99/100 (99.0%) composition as chorales
+Classified 124/277 (44.77%) dataset chorales as chorales
+
+
+Testing with 200 nodes, alpha 0.85:
+Test results:
+Classified 100/100 (100.0%) boring compositions as not chorales
+Classified 99/100 (99.0%) random compositions as not chorales
+Classified 71/100 (71.0%) composition as chorales
+Classified 74/277 (26.71%) dataset chorales as chorales
+
+
+Testing with 200 nodes, alpha 0.9:
+Test results:
+Classified 100/100 (100.0%) boring compositions as not chorales
+Classified 99/100 (99.0%) random compositions as not chorales
+Classified 75/100 (75.0%) composition as chorales
+Classified 77/277 (27.8%) dataset chorales as chorales
+
+
+Testing with 200 nodes, alpha 0.95:
+Test results:
+Classified 65/100 (65.0%) boring compositions as not chorales
+Classified 67/100 (67.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 145/277 (52.35%) dataset chorales as chorales
+
+
+Testing with 200 nodes, alpha 1.0:
+Test results:
+Classified 86/100 (86.0%) boring compositions as not chorales
+Classified 85/100 (85.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 106/277 (38.27%) dataset chorales as chorales
+
+
+Testing with 300 nodes, alpha 0.75:
+Test results:
+Classified 85/100 (85.0%) boring compositions as not chorales
+Classified 90/100 (90.0%) random compositions as not chorales
+Classified 99/100 (99.0%) composition as chorales
+Classified 102/277 (36.82%) dataset chorales as chorales
+
+
+Testing with 300 nodes, alpha 0.8:
+Test results:
+Classified 36/100 (36.0%) boring compositions as not chorales
+Classified 30/100 (30.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 211/277 (76.17%) dataset chorales as chorales
+
+
+Testing with 300 nodes, alpha 0.85:
+Test results:
+Classified 100/100 (100.0%) boring compositions as not chorales
+Classified 97/100 (97.0%) random compositions as not chorales
+Classified 72/100 (72.0%) composition as chorales
+Classified 80/277 (28.88%) dataset chorales as chorales
+
+
+Testing with 300 nodes, alpha 0.9:
+Test results:
+Classified 59/100 (59.0%) boring compositions as not chorales
+Classified 57/100 (57.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 161/277 (58.12%) dataset chorales as chorales
+
+
+Testing with 300 nodes, alpha 0.95:
+Test results:
+Classified 22/100 (22.0%) boring compositions as not chorales
+Classified 25/100 (25.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 230/277 (83.03%) dataset chorales as chorales
+
+
+Testing with 300 nodes, alpha 1.0:
+Test results:
+Classified 100/100 (100.0%) boring compositions as not chorales
+Classified 98/100 (98.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 79/277 (28.52%) dataset chorales as chorales
+
+
+Testing with 400 nodes, alpha 0.75:
+Test results:
+Classified 70/100 (70.0%) boring compositions as not chorales
+Classified 66/100 (66.0%) random compositions as not chorales
+Classified 99/100 (99.0%) composition as chorales
+Classified 141/277 (50.9%) dataset chorales as chorales
+
+
+Testing with 400 nodes, alpha 0.8:
+Test results:
+Classified 76/100 (76.0%) boring compositions as not chorales
+Classified 71/100 (71.0%) random compositions as not chorales
+Classified 99/100 (99.0%) composition as chorales
+Classified 130/277 (46.93%) dataset chorales as chorales
+
+
+Testing with 400 nodes, alpha 0.85:
+Test results:
+Classified 12/100 (12.0%) boring compositions as not chorales
+Classified 11/100 (11.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 254/277 (91.7%) dataset chorales as chorales
+
+
+Testing with 400 nodes, alpha 0.9:
+Test results:
+Classified 98/100 (98.0%) boring compositions as not chorales
+Classified 97/100 (97.0%) random compositions as not chorales
+Classified 80/100 (80.0%) composition as chorales
+Classified 82/277 (29.6%) dataset chorales as chorales
+
+
+Testing with 400 nodes, alpha 0.95:
+Test results:
+Classified 81/100 (81.0%) boring compositions as not chorales
+Classified 77/100 (77.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 119/277 (42.96%) dataset chorales as chorales
+
+
+Testing with 400 nodes, alpha 1.0:
+Test results:
+Classified 87/100 (87.0%) boring compositions as not chorales
+Classified 88/100 (88.0%) random compositions as not chorales
+Classified 99/100 (99.0%) composition as chorales
+Classified 102/277 (36.82%) dataset chorales as chorales
+
+
+Testing with 500 nodes, alpha 0.75:
+Test results:
+Classified 100/100 (100.0%) boring compositions as not chorales
+Classified 100/100 (100.0%) random compositions as not chorales
+Classified 44/100 (44.0%) composition as chorales
+Classified 70/277 (25.27%) dataset chorales as chorales
+
+
+Testing with 500 nodes, alpha 0.8:
+Test results:
+Classified 99/100 (99.0%) boring compositions as not chorales
+Classified 99/100 (99.0%) random compositions as not chorales
+Classified 39/100 (39.0%) composition as chorales
+Classified 45/277 (16.25%) dataset chorales as chorales
+
+
+Testing with 500 nodes, alpha 0.85:
+Test results:
+Classified 100/100 (100.0%) boring compositions as not chorales
+Classified 100/100 (100.0%) random compositions as not chorales
+Classified 43/100 (43.0%) composition as chorales
+Classified 69/277 (24.91%) dataset chorales as chorales
+
+
+Testing with 500 nodes, alpha 0.9:
+Test results:
+Classified 32/100 (32.0%) boring compositions as not chorales
+Classified 38/100 (38.0%) random compositions as not chorales
+Classified 100/100 (100.0%) composition as chorales
+Classified 207/277 (74.73%) dataset chorales as chorales
+
+
+Testing with 500 nodes, alpha 0.95:
+Test results:
+Classified 99/100 (99.0%) boring compositions as not chorales
+Classified 100/100 (100.0%) random compositions as not chorales
+Classified 9/100 (9.0%) composition as chorales
+Classified 1/277 (0.36%) dataset chorales as chorales
+
+
+Testing with 500 nodes, alpha 1.0:
+Test results:
+Classified 100/100 (100.0%) boring compositions as not chorales
+Classified 100/100 (100.0%) random compositions as not chorales
+Classified 21/100 (21.0%) composition as chorales
+Classified 63/277 (22.74%) dataset chorales as chorales
+
+
+Testing with 750 nodes, alpha 0.75:
+Test results:
+Classified 74/100 (74.0%) boring compositions as not chorales
+Classified 69/100 (69.0%) random compositions as not chorales
+Classified 68/100 (68.0%) composition as chorales
+Classified 134/277 (48.38%) dataset chorales as chorales
+
+
+Testing with 750 nodes, alpha 0.8:
+Test results:
+Classified 72/100 (72.0%) boring compositions as not chorales
+Classified 72/100 (72.0%) random compositions as not chorales
+Classified 96/100 (96.0%) composition as chorales
+Classified 133/277 (48.01%) dataset chorales as chorales
+
+
+Testing with 750 nodes, alpha 0.85:
+Test results:
+Classified 94/100 (94.0%) boring compositions as not chorales
+Classified 94/100 (94.0%) random compositions as not chorales
+Classified 71/100 (71.0%) composition as chorales
+Classified 89/277 (32.13%) dataset chorales as chorales
+
+
+Testing with 750 nodes, alpha 0.9:
+Test results:
+Classified 44/100 (44.0%) boring compositions as not chorales
+Classified 46/100 (46.0%) random compositions as not chorales
+Classified 99/100 (99.0%) composition as chorales
+Classified 187/277 (67.51%) dataset chorales as chorales
+
+
+Testing with 750 nodes, alpha 0.95:
+Test results:
+Classified 67/100 (67.0%) boring compositions as not chorales
+Classified 60/100 (60.0%) random compositions as not chorales
+Classified 97/100 (97.0%) composition as chorales
+Classified 150/277 (54.15%) dataset chorales as chorales
+
+
+Testing with 750 nodes, alpha 1.0:
+Test results:
+Classified 90/100 (90.0%) boring compositions as not chorales
+Classified 86/100 (86.0%) random compositions as not chorales
+Classified 97/100 (97.0%) composition as chorales
+Classified 101/277 (36.46%) dataset chorales as chorales
